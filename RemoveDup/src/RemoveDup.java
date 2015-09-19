@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 
 
 public class RemoveDup {
@@ -5,7 +10,7 @@ public class RemoveDup {
 	public int removeDup(int[]A){
 		
 		//Solution 1
-		/*
+		
 		List<Integer> list = new ArrayList<Integer>(A.length);
 		for(int i: A){
 			list.add(i);
@@ -21,9 +26,10 @@ public class RemoveDup {
 		for(int i : result){
 			System.out.println(i);
 		}
-		*/
+		
 		
 		//Solution 2
+		/*
 		int prev = A[0];
 		for(int i = 1; i < A.length; i++){
 			if(prev == A[i]){
@@ -37,7 +43,7 @@ public class RemoveDup {
 		for(int i : A){
 			System.out.println(i);
 		}
-		
+		*/
 
 		return 0;
 	}
